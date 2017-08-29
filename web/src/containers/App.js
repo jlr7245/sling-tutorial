@@ -10,11 +10,11 @@ import Home from '../components/Home';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div className="app">
           <Route exact path="/" component={Home} />
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
